@@ -1,0 +1,33 @@
+* {
+  background: rgb(243, 240, 240);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1.5px;
+  list-style: none;
+}
+.main-container {
+  // margin-left: 175px;
+  // height: 1190px;
+  // width: calc(100% - 170px);
+
+  &__form-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__Contact {
+    justify-content: center;
+    display: flex;
+  }
+}
+
+img {
+  object-fit: cover;
+  box-shadow: 0px 0px 20px 15px;
+  color: #a8a8ee;
+  width: 70%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}

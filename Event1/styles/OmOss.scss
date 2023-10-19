@@ -1,0 +1,67 @@
+.main-container {
+  &__header {
+    letter-spacing: 1.5px;
+  }
+  &__CompanyInfo {
+    display: flex;
+    width: 103%;
+    flex-direction: column;
+    background-color: rgb(243, 240, 240);
+  }
+
+  &__CompanyInfotext {
+    font-style: oblique;
+    font-size: 18px;
+  }
+
+  &__headlineInfo {
+    margin-bottom: -6px;
+  }
+
+  &__Company-list {
+    margin-bottom: 10px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    list-style: none;
+    margin-left: 35px;
+  }
+
+  &__CompanyBoss {
+    height: 300px;
+    display: flex;
+    width: 102%;
+  }
+
+  &__BossImage {
+    display: flex;
+
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+  }
+
+  &__CompanyTeam-Info {
+    display: flex;
+
+    width: 102%;
+    flex-direction: column;
+    background-color: rgb(243, 240, 240);
+  }
+
+  &__CompanyForm-Info {
+    display: flex;
+    height: 430px;
+    width: 102%;
+    background-color: rgb(243, 240, 240);
+  }
+  img {
+    object-fit: cover;
+    width: 600px;
+    color: #433c3c;
+    box-shadow: 1px 3px 5px 5px;
+  }
+
+  &__form-box {
+    margin-left: 30px;
+  }
+}

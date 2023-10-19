@@ -1,0 +1,50 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1.5px;
+  list-style: none;
+}
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100vw;
+
+  &__list {
+    display: flex;
+    padding: inherit;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  & a:hover {
+    background-color: darkgray;
+    color: white;
+  }
+}
+
+.main-container {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.event-item {
+  justify-content: center;
+
+  &__list {
+    padding: 0;
+    list-style: none;
+  }
+  &__image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    align-items: center;
+    box-shadow: 20px 20px 20px;
+
+    &--scaled {
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
+  }
+}

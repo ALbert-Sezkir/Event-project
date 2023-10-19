@@ -1,0 +1,57 @@
+.main-container__header {
+  letter-spacing: 1.5px;
+}
+.main-container__CompanyInfo {
+  display: flex;
+  width: 103%;
+  flex-direction: column;
+  background-color: rgb(243, 240, 240);
+}
+.main-container__CompanyInfotext {
+  font-style: oblique;
+  font-size: 18px;
+}
+.main-container__headlineInfo {
+  margin-bottom: -6px;
+}
+.main-container__Company-list {
+  margin-bottom: 10px;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  list-style: none;
+  margin-left: 35px;
+}
+.main-container__CompanyBoss {
+  height: 300px;
+  display: flex;
+  width: 102%;
+}
+.main-container__BossImage {
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
+.main-container__CompanyTeam-Info {
+  display: flex;
+  width: 102%;
+  flex-direction: column;
+  background-color: rgb(243, 240, 240);
+}
+.main-container__CompanyForm-Info {
+  display: flex;
+  height: 430px;
+  width: 102%;
+  background-color: rgb(243, 240, 240);
+}
+.main-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 600px;
+  color: #433c3c;
+  box-shadow: 1px 3px 5px 5px;
+}
+.main-container__form-box {
+  margin-left: 30px;
+}/*# sourceMappingURL=OmOss.css.map */
