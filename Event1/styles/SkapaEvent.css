@@ -19,7 +19,11 @@ img {
      object-fit: cover;
   box-shadow: 0px 0px 20px 15px;
   color: #a8a8ee;
-  width: 70%;
+  height: 400px;
+  width: 170%;
+  position: relative;
+  right: 190px;
+
 }
 
 form {

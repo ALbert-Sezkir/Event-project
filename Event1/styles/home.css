@@ -8,12 +8,12 @@
 .main-container__image {
   text-align: center;
 }
-.main-container__imageMJ {
+.main-container__image-event {
   -o-object-fit: cover;
      object-fit: cover;
-  margin-top: 30px;
-  height: auto;
-  width: 60%;
+  margin-top: 20px;
+  height: 550px;
+  width: 80%;
   box-shadow: 0px 0px 20px 20px;
   color: #a89d63;
 }
@@ -47,8 +47,42 @@ li {
   list-style: none;
 }
 
-@media (max-width: 600px) {
-  .main-container__imageMJ {
-    width: 50%;
+svg {
+  width: 3rem;
+  vertical-align: middle;
+}
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #04aa6d;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
   }
 }/*# sourceMappingURL=home.css.map */
